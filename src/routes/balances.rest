@@ -1,0 +1,7 @@
+POST http://localhost:3001/balances/deposit/2
+profile_id: 2
+Content-Type: application/json
+
+{
+  "amountOfMoney": 50
+}

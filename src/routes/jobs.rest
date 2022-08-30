@@ -1,0 +1,7 @@
+GET http://localhost:3001/jobs/unpaid
+profile_id: 1
+
+###
+
+POST http://localhost:3001/jobs/4/pay
+profile_id: 2

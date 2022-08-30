@@ -1,0 +1,29 @@
+
+# best profession
+GET http://localhost:3001/admin/best-profession?start=2020-08-10&end=2020-08-15
+profile_id: 2
+
+###
+
+GET http://localhost:3001/admin/best-profession?start=2020-08-10&end=2021-08-15
+profile_id: 2
+
+###
+
+GET http://localhost:3001/admin/best-profession?start=2022-08-10&end=2022-08-15
+profile_id: 2
+
+###
+
+GET http://localhost:3001/admin/best-profession?start=INVALID-DATE&end=2022-08-15
+profile_id: 2
+
+###
+# best clients
+GET http://localhost:3001/admin/best-clients?start=2020-08-10&end=2020-08-17&limit=3
+profile_id: 2
+
+###
+
+GET http://localhost:3001/admin/best-clients?start=2021-08-10&end=2021-08-17
+profile_id: 2
